@@ -191,7 +191,7 @@ class SnakeGame {
 				break;
 			case 40:
 				// Down arrow key to move down
-				if (this.velocityY !== 1) {
+				if (this.velocityY !== -1) {
 					this.velocityX = 0;
 					this.velocityY = 1;
 				}
